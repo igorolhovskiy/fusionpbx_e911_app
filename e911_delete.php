@@ -27,7 +27,7 @@ require_once "root.php";
 require_once "resources/require.php";
 require_once "resources/check_auth.php";
 
-require_once "app/e911/resources/api_calls.php";
+require_once "app/e911/api_calls.php";
 
 if (permission_exists('e911_delete')) {
 	//access granted

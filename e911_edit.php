@@ -30,7 +30,7 @@
 	require_once "resources/require.php";
 	require_once "resources/check_auth.php";
 
-	require_once "app/e911/resources/api_calls.php";
+	require_once "app/e911/api_calls.php";
 
 //check permissions
 	if (permission_exists('e911_add') || permission_exists('e911_edit')) {

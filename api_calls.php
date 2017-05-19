@@ -1,6 +1,6 @@
 <?php
 
-require_once "app/e911/resources/functions.php";
+require_once "app/e911/functions.php";
 
 
 function validate_e911_data($address_data) {
